@@ -1,0 +1,24 @@
+{
+  "name": "dellano-sites",
+  "authors": [
+    "Caio Silva <bladellano@gmail.com>"
+  ],
+  "description": "Site para dellanosites.com.br",
+  "main": "index.php",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fontawesome": "^5.13.0",
+    "jquery": "^3.5.1",
+    "bootstrap": "^4.5.0",
+    "owl.carousel": "^2.3.4"
+  },
+  "private": true
+}
