@@ -279,7 +279,7 @@
 										<input type="text" class="form-control" placeholder="Nome">
 									</div>
 									<div class="form-group">									
-										<input type="text" class="form-control" placeholder="Telefone com DDD">
+										<input type="tel" class="form-control" placeholder="Telefone com DDD: 99-9999-9999" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}">
 									</div>
 
 								</div>
