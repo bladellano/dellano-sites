@@ -20,6 +20,23 @@ $('.owl-partners').owlCarousel({
     }
 })
 
+/*Botão que surge no rodapé p/ ir até o topo.*/
+$(window).scroll(function(e) {
+	if ($(this).scrollTop() > 0) {
+		$('.topo').fadeIn();
+	} else {
+		$('.topo').fadeOut();
+	}
+});
+
+$('.topo').click(function(e) {
+	e.preventDefault();
+	$('html, body').animate({
+		scrollTop: 0
+	}, 500)
+});
+
+
 $(window).scroll(function() {
 	if ($(document).scrollTop() > 150) {
 		$('.navbar').addClass('navbar-shrink');
