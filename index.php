@@ -75,7 +75,27 @@
 						<div class="section-title">
 							<h2>SOBRE</h2>
 							<hr>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium at nostrum quidem, saepe rerum praesentium corrupti, impedit consequuntur distinctio laboriosam perferendis aut vero, aliquid quam temporibus numquam laudantium ipsum ipsa.</p>
+							<h4>Formação:</h4>
+							Bacharel em Sistemas de Informação
+							<h4>Pós-graduando:</h4>
+							Engenharia de Software
+							<p>Profissional com grandes planos e carreira em ascensão, sempre em busca de novos conhecimentos e grandes desafios! 
+							Atualmente desenvolvo, analiso, atualizo, projeto e implemento na Secretaria de Educação do Estado do Pará, aplicando melhorias e soluções aos sistemas. Trabalho com a HTML5, PHP, Zend Framework 2, Codeigniter, Slim Framework 3, Linux, Composer, Bower, NPM, Bootstrap, Javascript,  jQuery, React Native, CSS3, MySql, Postgresql, Programa de Versionamento Tortoise Svn, GitHub,  entre outras tecnologias. </p>
+
+							<b>Últimos sites desenvolvidos:</b><br/>
+
+							www.adaptcontabilidade.com.br<br/>
+							www.paideiaeducacional.com<br/>
+							www.rosadesaroncolegio.com.br<br/>
+							www.nortemaquinaspara.com.br<br/>
+							www.parafuscaclube.com.br<br/><br/>
+
+							<b>Alguns módulos em teste:</b><br/>
+							<a href="https://red-check-pa.herokuapp.com/" target="_blank">https://red-check-pa.herokuapp.com/</a><br/>
+							<a href="https://app-store-agora.herokuapp.com/" target="_blank">https://app-store-agora.herokuapp.com/</a><br/>
+							<a href="https://desafio-webjump.herokuapp.com/" target="_blank">https://desafio-webjump.herokuapp.com/</a><br/>
+
+
 						</div>
 					</div>
 				</div>
@@ -268,29 +288,49 @@
 				<div class="col-lg-12 text-center">
 					<div class="section-title">
 
-						<form action="">
+						<form id="form-contact" action="">
 
 							<h2>CONTATO</h2>
 							<hr>
 							<br/>
 							<div class="row">
 
-								<div class="col-lg-6">
+								<div class="col-lg-6">		
+
 									<div class="form-group">									
-										<input type="text" class="form-control" placeholder="Nome">
+										<div class="input-group">
+											<div class="input-group-prepend"><span class="input-group-text"><i class="far fa-user"></i></span></div>
+											<input type="text" name="name" class="form-control" placeholder="Nome" required>
+										</div>
+
 									</div>
-									<div class="form-group">									
-										<input type="tel" class="form-control" placeholder="Telefone com DDD: 99-9999-9999" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}">
+
+									<div class="form-group">
+										<div class="input-group">
+											<div class="input-group-prepend"><span class="input-group-text"><i class="fas fa-phone"></i></span></div>
+											<input type="tel" name="tel" class="form-control" placeholder="Telefone com DDD" required>
+										</div>
 									</div>
 
 								</div>
 
+
 								<div class="col-lg-6">
-									<div class="form-group">									
-										<input type="text" class="form-control" placeholder="E-mail">
+
+									<div class="form-group">	
+										<div class="input-group">
+											<div class="input-group-prepend">
+												<span class="input-group-text" id="basic-addon1"><i class="far fa-envelope"></i></span>
+											</div>
+											<input type="email" name="email" class="form-control" placeholder="E-mail" required>
+										</div>
 									</div>
-									<div class="form-group">									
-										<input type="text" class="form-control" placeholder="Empresa">
+
+									<div class="input-group">
+										<div class="input-group-prepend">
+											<span class="input-group-text"><i class="far fa-building"></i></span>
+										</div>
+										<input type="text" name="company" class="form-control" placeholder="Empresa" required>
 									</div>
 
 								</div>
@@ -299,7 +339,7 @@
 							<div class="row">
 								<div class="col-lg-12">
 									<div class="form-group">									
-										<select name="" id="" class="form-control">
+										<select name="need" id="" class="form-control" required>
 											<option value="">O que você precisa?</option>
 
 											<option value="Site Institucional">Site Institucional</option>
@@ -310,7 +350,7 @@
 										</select>
 									</div>
 									<div class="form-group">									
-										<select name="" id="" class="form-control">
+										<select name="period" id="" class="form-control" required>
 											<option value="">Qual período você quer ser contatado?</option>
 											<option value="De manhã">De manhã</option>
 											<option value="De tarde">De tarde</option>
