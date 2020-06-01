@@ -128,6 +128,8 @@
 			<br/>
 		</section>
 
+
+
 		<section id="portfolio" class="light-bg">
 			<div class="container">
 				<div class="row">
@@ -135,14 +137,113 @@
 						<div class="section-title">
 							<h2>NOSSO <strong>PORTFÓLIO</strong></h2>
 							<hr>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium at nostrum quidem, saepe rerum praesentium corrupti, impedit consequuntur distinctio laboriosam perferendis aut vero, aliquid quam temporibus numquam laudantium ipsum ipsa.</p>
+							<p>Our portfolio is the best way to show our work, you can see here a big range of our work. Check them all and you will find what you are looking for.</p>
 						</div>
 					</div>
 				</div>
-
-			</div>
-			<!-- /.container -->
+				<div class="row">
+					<!-- start portfolio item -->
+					<div class="col-md-4">
+						<div class="ot-portfolio-item">
+							<figure class="effect-bubba">
+								<img src="assets/img/adapt-contabilidade.jpg" alt="adapt-contabilidade" class="img-responsive">
+								<figcaption>
+									<h2>Adapt Contabilidade</h2>
+									<p>A Adapt Contabilidade é uma empresa especializada na prestação de serviços nas áreas Contábil, Fiscal/Tributária, Administração de pessoal, Societária e Consultoria empresarial. Acesse <i class="fa fa-link" aria-hidden="true"></i></p>
+									<a href="http://adaptcontabilidade.com.br/" target="_blank">Link</a>
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+					<!-- end portfolio item -->
+					<!-- start portfolio item -->
+					<div class="col-md-4">
+						<div class="ot-portfolio-item">
+							<figure class="effect-bubba">
+								<img src="assets/img/pai-ideia.jpg" alt="pai-ideia" class="img-responsive">
+								<figcaption>
+									<h2>Paideia Educaciona</h2>
+									<p>A Paideia Educacional é uma empresa de assessoria e consultoria na área de educação e empresarial. Acesse <i class="fa fa-link" aria-hidden="true"></i></p>
+									<a href="http://paideiaeducacional.com/" target="_blank">Link</a>
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+					<!-- end portfolio item -->
+					<!-- start portfolio item -->
+					<div class="col-md-4">
+						<div class="ot-portfolio-item">
+							<figure class="effect-bubba">
+								<img src="assets/img/rosa-de-saron.jpg" alt="rosadesaron" class="img-responsive">
+								<figcaption>
+									<h2>Colégio Rosa de Saron</h2>
+									<p>Ao longo de sua trajetória, o Colégio Rosa de Saron tem contribuído com a educação por meio de práticas educativas comprometidas com a formação dos seus estudantes. Acesse <i class="fa fa-link" aria-hidden="true"></i></p>
+									<a href="https://www.rosadesaroncolegio.com.br/" target="_blank">Link</a>
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+					<!-- end portfolio item -->
+				</div>
+				<div class="row">
+					<!-- start portfolio item -->
+					<div class="col-md-4">
+						<div class="ot-portfolio-item">
+							<figure class="effect-bubba">
+								<img src="assets/img/parafuscaclube.jpg" alt="parafuscaclube" class="img-responsive">
+								<figcaption>
+									<h2>Pará Fusca Clube</h2>
+									<p>Somos verdadeiros apaixonados pelo fusca! E dessa paixão surgiu o Pará Fusca Clube que foi criado com o objetivo de reunir pessoas amantes desse veículo. Acesse <i class="fa fa-link" aria-hidden="true"></i></p>
+									<a href="http://www.parafuscaclube.com.br/" target="_blank">Link</a>
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+					<!-- end portfolio item -->
+					<!-- start portfolio item -->
+					<div class="col-md-4">
+						<div class="ot-portfolio-item">
+							<figure class="effect-bubba">
+								<img src="assets/img/nortemaquinaspara.jpg" alt="nortemaquinaspara" class="img-responsive">
+								<figcaption>
+									<h2>Norte Máquinas Pará</h2>
+									<p>Fundada no ano de 1986, através do Empresário Paulo Ferreira, a Norte Máquinas esta localizada na cidade de Ananindeua/PA. Destaca-se na representação e distribuição máquinas e suprimentos para indústria em geral. Acesse <i class="fa fa-link" aria-hidden="true"></i></p>
+									<a href="http://www.nortemaquinaspara.com.br/" target="_blank">Link</a>
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+					<!-- end portfolio item -->
+					<!-- start portfolio item -->
+					<div class="col-md-4">
+						<div class="ot-portfolio-item">
+							<figure class="effect-bubba">
+								<img src="assets/img/dinamo.jpg" alt="dinamo-educacao" class="img-responsive">
+								<figcaption>
+									<h2>Dínamo Educação</h2>
+									<p>A Dínamo Educação surgiu para fazer com que o seu aprendizado aconteça de maneira agradável, efetiva e econômica. Acesse <i class="fa fa-link" aria-hidden="true"></i></p>
+									<a href="http://dinamoeducacao.com/" target="_blank">Link</a>
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+					<!-- end portfolio item -->
+				</div>
+			</div><!-- end container -->
 		</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 		<section id="clients">
 			<div class="container">
