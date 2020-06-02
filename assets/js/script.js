@@ -1,6 +1,34 @@
 
 $(function(){
 
+	/* Slick parceiros */
+	$('.slick-parceiros').slick({
+		infinite: true,
+		slidesToShow: 5,
+		slidesToScroll: 3,
+		// centerMode: true,
+		responsive: [
+		{
+			breakpoint: 768,
+			settings: {
+				arrows: false,
+				centerMode: true,
+				centerPadding: '40px',
+				slidesToShow: 3
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				arrows: false,
+				centerMode: true,
+				centerPadding: '40px',
+				slidesToShow: 1
+			}
+		}
+		]
+	});
+
 	/* Formulário de envio de tentatica de contato */
 	$('#form-contact').submit(function(e) {
 		e.preventDefault();
@@ -35,7 +63,7 @@ $(function(){
 	});
 
 	/* Owl carousel */
-	$('.owl-partners').owlCarousel({
+/*	$('.owl-partners').owlCarousel({
 		loop:true,
 		margin:10,
 		nav:false,
@@ -53,7 +81,7 @@ $(function(){
 				items:5
 			}
 		}
-	})
+	})*/
 
 	/* Botão que surge no rodapé p/ levar até o topo.*/
 	$(window).scroll(function(e) {

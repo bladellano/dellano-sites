@@ -5,11 +5,20 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<meta name="theme-color" content="#013243">
-	<title>Dellano Sites</title>
+	<title>Dellano Sites - Criação de Sites, E-commerce e Artes Digitais</title>
+
+	<meta name="author" content="Dellano Sites">
+	<meta name="description" content="Criação de sites para empresas e autônomos. Desenvolvimento de sites, 
+	e-commerces, loja virtual, identidade visual, artes digitais, flyers, tags, folders, fachadas e mídias sociais em Belém. Agência Dellano Sites.">
+	<meta name="keywords" content="sites, site, sistemas, loja virtual, php, codeigniter, html, css, jquery, artes digitais, logotipo, mídias sociais, ceo, agência, e-commerce, vendas pelas internet, divulgação de serviços, divulgação de protudos, visibilidade, responsivo, custo benefício, boleto, cartão de crédito, Belém, Pará, Brasil">
+	<meta name="copyright" content="© 2020 Dellano Sites" />
+
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="bower_components/owl.carousel/dist/assets/owl.carousel.css">
-	<link rel="stylesheet" href="bower_components/owl.carousel/dist/assets/owl.theme.default.css">
 	<link rel="stylesheet" href="bower_components/fontawesome/css/all.css">
+	<link rel="stylesheet" href="bower_components/lightbox2/dist/css/lightbox.min.css">
+	<link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css">
+	<link rel="stylesheet" href="bower_components/slick-carousel/slick/slick-theme.css">
+
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -57,7 +66,6 @@
 			<div class="container">
 				<div class="slider-container">
 					<div class="intro-text">
-						<!-- <div class="circle-photo"><img src="assets/img/perfil.png" alt=""></div> -->
 						<div class="circle-photo"><img src="assets/img/perfil-caio.png" alt=""></div>
 						<div class="intro-lead-in">Caio Dellano</div>
 						<div class="intro-heading">DESENVOLVEDOR FULL STACK</div>
@@ -104,7 +112,6 @@
 			<!-- /.container -->
 		</section>
 
-
 		<section id="services" class="dark-bg">
 			<div class="container">
 				<div class="row">
@@ -128,21 +135,18 @@
 			<br/>
 		</section>
 
-
-
 		<section id="portfolio" class="light-bg">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 text-center">
 						<div class="section-title">
 							<h2>NOSSO <strong>PORTFÓLIO</strong></h2>
-							<hr>
-							<p>Our portfolio is the best way to show our work, you can see here a big range of our work. Check them all and you will find what you are looking for.</p>
+							<hr><br/>
+							<h4>SITES E E-COMMERCES</h4>
 						</div>
 					</div>
 				</div>
 				<div class="row">
-					<!-- start portfolio item -->
 					<div class="col-md-4">
 						<div class="ot-portfolio-item">
 							<figure class="effect-bubba">
@@ -155,22 +159,18 @@
 							</figure>
 						</div>
 					</div>
-					<!-- end portfolio item -->
-					<!-- start portfolio item -->
 					<div class="col-md-4">
 						<div class="ot-portfolio-item">
 							<figure class="effect-bubba">
 								<img src="assets/img/pai-ideia.jpg" alt="pai-ideia" class="img-responsive">
 								<figcaption>
-									<h2>Paideia Educaciona</h2>
+									<h2>Paideia Educacional</h2>
 									<p>A Paideia Educacional é uma empresa de assessoria e consultoria na área de educação e empresarial. Acesse <i class="fa fa-link" aria-hidden="true"></i></p>
 									<a href="http://paideiaeducacional.com/" target="_blank">Link</a>
 								</figcaption>
 							</figure>
 						</div>
 					</div>
-					<!-- end portfolio item -->
-					<!-- start portfolio item -->
 					<div class="col-md-4">
 						<div class="ot-portfolio-item">
 							<figure class="effect-bubba">
@@ -183,10 +183,8 @@
 							</figure>
 						</div>
 					</div>
-					<!-- end portfolio item -->
 				</div>
 				<div class="row">
-					<!-- start portfolio item -->
 					<div class="col-md-4">
 						<div class="ot-portfolio-item">
 							<figure class="effect-bubba">
@@ -199,8 +197,6 @@
 							</figure>
 						</div>
 					</div>
-					<!-- end portfolio item -->
-					<!-- start portfolio item -->
 					<div class="col-md-4">
 						<div class="ot-portfolio-item">
 							<figure class="effect-bubba">
@@ -213,8 +209,6 @@
 							</figure>
 						</div>
 					</div>
-					<!-- end portfolio item -->
-					<!-- start portfolio item -->
 					<div class="col-md-4">
 						<div class="ot-portfolio-item">
 							<figure class="effect-bubba">
@@ -233,20 +227,90 @@
 		</section>
 
 
+		<section id="portfolio-artes" class="light-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="section-title">
+							<h4>ARTES &bull; FLYERS &bull; MÍDIAS SOCIAIS &bull; IDENTIDADE VISUAL &bull; LOGOMARCAS</h4>
+						</div>
+					</div>
+				</div>
+				<div class="row">
 
-
-
-
-
-
-
-
-
-
-
+					<div class="col-md-4 col-sm-6">
+						<div class="work wow fadeInUp" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeInUp;">
+							<a class="gallery-work" href="assets/img/artes-digitais/43083640780_df478284fb_o.jpg" data-lightbox="roadtrip">
+								<img src="assets/img/artes-digitais/43083640780_df478284fb_o_sm.jpg" class="img-responsive" alt="ceedee">
+								<div class="details">
+									<h4>FORRÓ DAS TRÊS E MEIA</h4> 
+									<p>Flayer</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="work wow fadeInUp" data-wow-delay="400ms" style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;">
+							<a class="gallery-work" href="assets/img/artes-digitais/41667234620_197c4c70ec_o.jpg" data-lightbox="roadtrip">
+								<img src="assets/img/artes-digitais/41667234620_197c4c70ec_o_sm.jpg" class="img-responsive" alt="elemeno">
+								<div class="details">
+									<h4>INFLUENCIADORES</h4> 
+									<p>Identidade Visual</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="work wow fadeInUp" data-wow-delay="600ms" style="visibility: visible; animation-delay: 600ms; animation-name: fadeInUp;">
+							<a class="gallery-work" href="assets/img/artes-digitais/48912677158_511a3cdc83_o.jpg" data-lightbox="roadtrip">
+								<img src="assets/img/artes-digitais/48912677158_511a3cdc83_o_sm.jpg" class="img-responsive" alt="afgee">
+								<div class="details">
+									<h4>BANCLUB DO BRASIL</h4> 
+									<p>Identidade Visual</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="work wow fadeInUp" data-wow-delay="800ms" style="visibility: visible; animation-delay: 800ms; animation-name: fadeInUp;">
+							<a class="gallery-work" href="assets/img/artes-digitais/48913175431_946a9f2017_o.jpg" data-lightbox="roadtrip">
+								<img src="assets/img/artes-digitais/48913175431_946a9f2017_o_sm.jpg" class="img-responsive" alt="ceedee">
+								<div class="details">
+									<h4>DÍNAMO EDUCAÇÃO</h4> 
+									<p>Banner para campanha Pós-gradução</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="work wow fadeInUp" data-wow-delay="1000ms" style="visibility: visible; animation-delay: 1000ms; animation-name: fadeInUp;">
+							<a class="gallery-work" href="assets/img/artes-digitais/49046454897_76365872d6_o.jpg" data-lightbox="roadtrip">
+								<img src="assets/img/artes-digitais/49046454897_76365872d6_o_sm.jpg" class="img-responsive" alt="elemeno">
+								<div class="details">
+									<h4>VALTER RODAS</h4> 
+									<p>Arte para o Instagram</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="work wow fadeInUp" data-wow-delay="1200ms" style="visibility: visible; animation-delay: 1200ms; animation-name: fadeInUp;">
+							<a class="gallery-work" href="assets/img/artes-digitais/49046245151_b33e7dfb43_o.jpg" data-lightbox="roadtrip">
+								<img src="assets/img/artes-digitais/49046245151_b33e7dfb43_o_sm.jpg" class="img-responsive" alt="afgee">
+								<div class="details">
+									<h4>Flyer</h4> 
+									<p>Arte para Evento</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div><!-- end container -->
+		</section>
 
 		<section id="clients">
 			<div class="container">
+				
 				<div class="row">
 					<div class="col-lg-12 text-center">
 						<div class="section-title">
@@ -256,55 +320,18 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<div class="owl-partners owl-carousel owl-theme owl-loaded">
-
-							<div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2090px, 0px, 0px); transition: all 0.25s ease 0s; width: 3610px;"><div class="owl-item cloned" style="width: 180px; margin-right: 10px;"><div class="item">
-								<div class="partner-logo"><img src="http://mozthemes.com/demo/nantes/images/demo/partners-5.png" alt="partners"></div>
-							</div></div><div class="owl-item cloned" style="width: 180px; margin-right: 10px;"><div class="item">
-								<div class="partner-logo"><img src="http://mozthemes.com/demo/nantes/images/demo/partners-6.png" alt="partners"></div>
-							</div></div><div class="owl-item cloned" style="width: 180px; margin-right: 10px;"><div class="item">
-								<div class="partner-logo"><img src="http://mozthemes.com/demo/nantes/images/demo/partners-7.png" alt="partners"></div>
-							</div></div><div class="owl-item cloned" style="width: 180px; margin-right: 10px;"><div class="item">
-								<div class="partner-logo"><img src="http://mozthemes.com/demo/nantes/images/demo/partners-8.png" alt="partners"></div>
-							</div></div><div class="owl-item cloned" style="width: 180px; margin-right: 10px;"><div class="item">
-								<div class="partner-logo"><img src="http://mozthemes.com/demo/nantes/images/demo/partners-9.png" alt="partners"></div>
-							</div></div><div class="owl-item" style="width: 180px; margin-right: 10px;"><div class="item">
-								<div class="partner-logo"><img src="http://mozthemes.com/demo/nantes/images/demo/partners-1.png" alt="partners"></div>
-							</div></div><div class="owl-item" style="width: 180px; margin-right: 10px;"><div class="item">
-								<div class="partner-logo"><img src="http://mozthemes.com/demo/nantes/images/demo/partners-2.png" alt="partners"></div>
-							</div></div><div class="owl-item" style="width: 180px; margin-right: 10px;"><div class="item">
-								<div class="partner-logo"><img src="http://mozthemes.com/demo/nantes/images/demo/partners-3.png" alt="partners"></div>
-							</div></div><div class="owl-item" style="width: 180px; margin-right: 10px;"><div class="item">
-								<div class="partner-logo"><img src="http://mozthemes.com/demo/nantes/images/demo/partners-4.png" alt="partners"></div>
-							</div></div><div class="owl-item" style="width: 180px; margin-right: 10px;"><div class="item">
-								<div class="partner-logo"><img src="http://mozthemes.com/demo/nantes/images/demo/partners-5.png" alt="partners"></div>
-							</div></div><div class="owl-item" style="width: 180px; margin-right: 10px;"><div class="item">
-								<div class="partner-logo"><img src="http://mozthemes.com/demo/nantes/images/demo/partners-6.png" alt="partners"></div>
-							</div></div><div class="owl-item active" style="width: 180px; margin-right: 10px;"><div class="item">
-								<div class="partner-logo"><img src="http://mozthemes.com/demo/nantes/images/demo/partners-7.png" alt="partners"></div>
-							</div></div><div class="owl-item active" style="width: 180px; margin-right: 10px;"><div class="item">
-								<div class="partner-logo"><img src="http://mozthemes.com/demo/nantes/images/demo/partners-8.png" alt="partners"></div>
-							</div></div><div class="owl-item active" style="width: 180px; margin-right: 10px;"><div class="item">
-								<div class="partner-logo"><img src="http://mozthemes.com/demo/nantes/images/demo/partners-9.png" alt="partners"></div>
-							</div></div><div class="owl-item cloned active" style="width: 180px; margin-right: 10px;"><div class="item">
-								<div class="partner-logo"><img src="http://mozthemes.com/demo/nantes/images/demo/partners-1.png" alt="partners"></div>
-							</div></div><div class="owl-item cloned active" style="width: 180px; margin-right: 10px;"><div class="item">
-								<div class="partner-logo"><img src="http://mozthemes.com/demo/nantes/images/demo/partners-2.png" alt="partners"></div>
-							</div></div><div class="owl-item cloned" style="width: 180px; margin-right: 10px;"><div class="item">
-								<div class="partner-logo"><img src="http://mozthemes.com/demo/nantes/images/demo/partners-3.png" alt="partners"></div>
-							</div></div><div class="owl-item cloned" style="width: 180px; margin-right: 10px;"><div class="item">
-								<div class="partner-logo"><img src="http://mozthemes.com/demo/nantes/images/demo/partners-4.png" alt="partners"></div>
-							</div></div><div class="owl-item cloned" style="width: 180px; margin-right: 10px;"><div class="item">
-								<div class="partner-logo"><img src="http://mozthemes.com/demo/nantes/images/demo/partners-5.png" alt="partners"></div>
-							</div>
-						</div></div></div>
-					</div>
+				<div class="slick-parceiros">
+					<div><img src="assets/img/parceiros/logo-sage.png" alt=""></div>
+					<div><img src="assets/img/parceiros/logo-sage.png" alt=""></div>
+					<div><img src="assets/img/parceiros/logo-sage.png" alt=""></div>
+					<div><img src="assets/img/parceiros/logo-sage.png" alt=""></div>
+					<div><img src="assets/img/parceiros/logo-sage.png" alt=""></div>
+					<div><img src="assets/img/parceiros/logo-sage.png" alt=""></div>
+					<div><img src="assets/img/parceiros/logo-sage.png" alt=""></div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
+
 	<section id="faq" class="light-bg">
 		<div class="container">
 			<div class="row">
@@ -379,8 +406,7 @@
 				</div>
 			</div>
 
-		</div>
-		<!-- /.container -->
+		</div><!-- /.container -->
 	</section>
 
 	<section id="contact" class="dark-bg">
@@ -442,11 +468,10 @@
 									<div class="form-group">									
 										<select name="need" id="" class="form-control" required>
 											<option value="">O que você precisa?</option>
-
 											<option value="Site Institucional">Site Institucional</option>
 											<option value="Loja Virtual">Loja Virtual</option>
 											<option value="Otimizar meu site para o Google">Otimizar meu site para o Google</option>
-											<option value="O que você precisa?">O que você precisa?</option>															
+											<option value="O que você precisa?">O que você precisa?</option>														
 
 										</select>
 									</div>
@@ -481,14 +506,12 @@
 
 			<div class="row">
 
-
 				<div class="col-md-6">
 					<img src="assets/img/logo-nav-solo.png" alt="">
 				</div>
 				<div class="col-md-6 text-right">
 					<i class="fab fa-facebook-f"></i>
 					<i class="fab fa-instagram"></i>
-					<!-- <i class="fab fa-youtube"></i> -->
 					<i class="fab fa-whatsapp"></i>
 				</div>
 
@@ -523,7 +546,6 @@
 				</div>
 			</div>
 
-
 		</div><!-- /.container -->
 		<div class="container-fluid assign">
 			<div class="container">				
@@ -536,7 +558,10 @@
 	<script src="bower_components/jquery/dist/jquery.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
 	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js" ></script>
-	<script src="bower_components/owl.carousel/dist/owl.carousel.min.js" ></script>
+	<script src="bower_components/lightbox2/dist/js/lightbox.min.js" ></script>
+	<script src="bower_components/slick-carousel/slick/slick.js" ></script>
 	<script src="assets/js/script.js" ></script>
+
+	
 </body>
 </html>
