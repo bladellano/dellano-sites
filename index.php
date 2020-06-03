@@ -22,7 +22,6 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-
 <body id="page-top">
 
 	<nav class="navbar navbar-default fixed-top navbar-expand-lg navbar-light ">
@@ -137,38 +136,48 @@
 					<div class="row about">
 						<div class="col-md-12">
 
+							Corel Draw
+							<div class="progress" style="height: 6px;">
+								<div class="progress-bar bg-default" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+
+							Photoshop
+							<div class="progress" style="height: 6px;">
+								<div class="progress-bar bg-default" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+
 							PHP
-							<div class="progress" style="height: 10px;">
+							<div class="progress" style="height: 6px;">
 								<div class="progress-bar bg-success" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 							</div>
 
 							Javascript
-							<div class="progress" style="height: 10px;">
+							<div class="progress" style="height: 6px;">
 								<div class="progress-bar bg-success" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 							</div>
 
 							HTML5
-							<div class="progress" style="height: 10px;">
+							<div class="progress" style="height: 6px;">
 								<div class="progress-bar bg-success" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 							</div>
 
 							CSS3
-							<div class="progress" style="height: 10px;">
+							<div class="progress" style="height: 6px;">
 								<div class="progress-bar bg-success" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 							</div>
 
 							JQuery
-							<div class="progress" style="height: 10px;">
+							<div class="progress" style="height: 6px;">
 								<div class="progress-bar bg-success" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 							</div>
 
 							Linux
-							<div class="progress" style="height: 10px;">
+							<div class="progress" style="height: 6px;">
 								<div class="progress-bar bg-success" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 							</div>
 
 							MySql/Postgress
-							<div class="progress" style="height: 10px;">
+							<div class="progress" style="height: 6px;">
 								<div class="progress-bar bg-success" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 							</div>
 
@@ -193,14 +202,32 @@
 								<h2>SERVIÇOS</h2>
 								<hr>
 								<br/>
-								<h5>O MOMENTO É AGORA!</h5>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium at nostrum quidem, saepe rerum praesentium corrupti, impedit consequuntur distinctio laboriosam perferendis aut vero, aliquid quam temporibus numquam laudantium ipsum ipsa.</p>
+								<h5>O MOMENTO É AGORA!</h5>							
 							</div>
 						</div>
 					</div>
+
+					<div class="row card-services">
+						<div class="col-md-4">
+							<i class="fas fa-laptop-code"></i>
+							<h3>Sites Institucionais e hotsites</h3>
+							<p>Desenvolvemos sites para empresas. Layouts exclusivos e personalizados, de fácil navegação, adaptável em todas as telas e dispositivos (sites responsivos), integrados com Redes Sociais, cadastro no Google Maps e com monitoramento de visitas e desempenho pelo Google Analytics.</p>
+						</div>
+						<div class="col-md-4">
+							<i class="fas fa-shopping-cart"></i>
+							<h3>Lojas Virtuais</h3>
+							<p>A loja virtual exibe os produtos e informações essenciais pra possíveis compradores, permanecendo disponível 24h por dia, todos os dias da semana e em todos os dispositivos! E-commerces com layout exclusivo, pensado na navegação e experiência de compra do usuário.</p>
+						</div>
+						<div class="col-md-4">
+							<i class="fas fa-drafting-compass"></i>
+							<h3>Artes Digitais e Identidade Visual</h3>
+							<p>A padronização da identidade visual demonstra o profissionalismo com que a sua empresa trabalha. O contato visual do cliente com um layout limpo e moderno traz confiança e credibilidade para o seu negócio. Tenha a sua imagem como um grande diferencial!</p>
+						</div>
+					</div>
+
 					<div class="row">
 						<div class="col-lg-12 text-center">
-							<a href="#services" class="page-scroll btn btn-primary btn-lg">FAÇA UM ORÇAMENTO</a>
+							<a href="#contact" class="page-scroll btn btn-primary btn-lg">FAÇA UM ORÇAMENTO</a>
 						</div>
 					</div>
 				</div>
@@ -213,7 +240,7 @@
 					<div class="row">
 						<div class="col-lg-12 text-center">
 							<div class="section-title">
-								<h2>NOSSO <strong>PORTFÓLIO</strong></h2>
+								<h2>NOSSO PORTFÓLIO</h2>
 								<hr><br/>
 								<h4>SITES E E-COMMERCES</h4>
 							</div>
@@ -381,31 +408,28 @@
 				</div><!-- end container -->
 			</section>
 
-			<section id="clients">
+			<section id="clients" class="light-bg">
 				<div class="container">
 
 					<div class="row">
 						<div class="col-lg-12 text-center">
 							<div class="section-title">
-								<h2>CLIENTES E <strong>AVALIAÇÕES</strong></h2>
+								<h2>CLIENTES E AVALIAÇÕES</h2>
 								<hr>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium at nostrum quidem, saepe rerum praesentium corrupti, impedit consequuntur distinctio laboriosam perferendis aut vero, aliquid quam temporibus numquam laudantium ipsum ipsa.</p>
+								<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium at nostrum quidem, saepe rerum praesentium corrupti, impedit consequuntur distinctio laboriosam perferendis aut vero, aliquid quam temporibus numquam laudantium ipsum ipsa.</p> -->
 							</div>
 						</div>
 					</div>
 					<div class="slick-parceiros">
-						<div><img src="assets/img/parceiros/logo-sage.png" alt=""></div>
-						<div><img src="assets/img/parceiros/logo-sage.png" alt=""></div>
-						<div><img src="assets/img/parceiros/logo-sage.png" alt=""></div>
-						<div><img src="assets/img/parceiros/logo-sage.png" alt=""></div>
-						<div><img src="assets/img/parceiros/logo-sage.png" alt=""></div>
-						<div><img src="assets/img/parceiros/logo-sage.png" alt=""></div>
-						<div><img src="assets/img/parceiros/logo-sage.png" alt=""></div>
+						<div><img src="assets/img/parceiros/logo-para.png" alt=""></div>
+						<div><img src="assets/img/parceiros/logo-adapte.png" alt=""></div>
+						<div><img src="assets/img/parceiros/logo-link.png" alt=""></div>
+						<div><img src="assets/img/parceiros/logo-influenciadores.png" alt=""></div>
 					</div>
 				</div>
 			</section>
 
-			<section id="faq" class="light-bg">
+			<section id="faq" class="">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-12 text-center">
@@ -415,21 +439,21 @@
 								<br/>
 
 								<div class="row">
-									<div class="col-lg-12">
 
+									<div class="col-lg-6">
 										<div id="accordion">
 											<div class="card">
 												<div class="card-header" id="headingOne">
 													<h5 class="mb-0">
 														<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-															<i class="fas fa-chevron-down"></i>
+															<i class="fas fa-arrow-circle-down"></i>
 															Meu site aparecerá no Google?
 														</button>
 													</h5>
 												</div>
 
 												<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-													<div class="card-body">
+													<div class="card-body text-left">
 														Sim, está incluso em nosso trabalho de desenvolvimento de sites cadastrar seu site no Google e otimizar ele de acordo com as boas práticas de SEO.<br/>
 
 														Um site não fica na primeira página do Google se não seguir alguns parâmetros impostos pelo próprio Google na hora da criação. E nós estudamos e acompanhamos isso diariamente para poder executar as melhores práticas após criar seu site.
@@ -440,18 +464,19 @@
 												<div class="card-header" id="headingTwo">
 													<h5 class="mb-0">
 														<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-															<i class="fas fa-chevron-down"></i>
+															<i class="fas fa-arrow-circle-down"></i>
 															Quais tipos de sites vocês desenvolvem?​
 														</button>
 													</h5>
 												</div>
 												<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-													<div class="card-body">
-														Somos uma empresa de criação de sites especializada em WordPress e temos 3 tipos de site: Site por assinatura, site de pagamento único e site de vendas online (e-commerce).<br/>
+													<div class="card-body text-left">
+														Somos uma agência de criação de artes digitais e especializada em sites: Site por assinatura, site de pagamento único e site de vendas online (e-commerce).<br/>
 
-														O site por assinatura é uma opção de pagamento mensal para quem precisa de uma solução completa de site, hospedagem e suporte sem ter grandes custos iniciais.<br/>
+														&bull; O site por assinatura é uma opção de pagamento mensal para quem precisa de uma solução completa de site, hospedagem e suporte sem ter grandes custos iniciais.<br/>
 
-														O site de pagamento único é o site que não há mensalidades atreladas com a UpSites, você pagará apenas uma única vez e o site será seu. Nossos astronautas tem a missão de criar layouts incríveis, sob medida, pensando no seu negócio.
+														&bull; O site de pagamento único é o site que não há mensalidades atreladas com a Dellano Sites, você pagará apenas uma única vez e o site será seu. Temos a missão de criar layouts incríveis, sob medida, pensando no seu negócio.<br/>
+														&bull; A criação de loja virtual é o tipo de site para quem quer vender pela internet. Desenvolvemos um layout exclusivo também, e construímos uma verdadeira máquina de vendas online para você.
 													</div>
 												</div>
 											</div>
@@ -459,20 +484,107 @@
 												<div class="card-header" id="headingThree">
 													<h5 class="mb-0">
 														<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-															<i class="fas fa-chevron-down"></i>
+															<i class="fas fa-arrow-circle-down"></i>
 															Quais são as etapas para ter a criação de um site profissional?
 														</button>
 													</h5>
 												</div>
 												<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-													<div class="card-body">
-														Resumidamente, o processo para a criação de sites em WordPress é bem simples. Você solicitará o contato de nossa equipe clicando aqui, fará o pagamento e preencherá o briefing e em poucos dias você receberá seu site para aprovação.
+													<div class="card-body text-left">
+														Resumidamente, o processo para a criação de sites é bem simples. Você solicitará o contato <a href="#contact">clicando aqui</a>, preencherá o briefing e em poucos dias você receberá seu site para aprovação. Após a análise e aprovação do cliente, será passado um contrato e será exigido 50% do valor total do projeto para primeira fase da criação do site e o restante será pago no final do projeto seguido da aprovação final do cliente.
+													</div>
+												</div>
+											</div>
+											<div class="card">
+												<div class="card-header" id="headingFour">
+													<h5 class="mb-0">
+														<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+															<i class="fas fa-arrow-circle-down"></i>
+															Depois de criar meu site, tem alguma valor mensal obrigatório?
+														</button>
+													</h5>
+												</div>
+												<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+													<div class="card-body text-left">
+														Dúvidas? Entre em contato <a href="#contact">clicando aqui.</a>
+													</div>
+												</div>
+											</div>
+											
+										</div>
+
+									</div>	<!-- /.col-lg-6 -->
+
+									<div class="col-lg-6">
+
+										<div id="accordion">
+											
+											<div class="card">
+												<div class="card-header" id="headingFive">
+													<h5 class="mb-0">
+														<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+															<i class="fas fa-arrow-circle-down"></i>
+															Qual a forma de pagamento?
+														</button>
+													</h5>
+												</div>
+												<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+													<div class="card-body text-left">
+														Nós praticamente financiamos o site para você. Aceitamos pagamentos parcelados via boleto bancário sem juros, transferência bancária, cartão de crédito, para te dar maior segurança e condição para desenvolver o site.
+													</div>
+												</div>
+											</div>
+
+											<div class="card">
+												<div class="card-header" id="headingSix">
+													<h5 class="mb-0">
+														<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsesSix" aria-expanded="false" aria-controls="collapsesSix">
+															<i class="fas fa-arrow-circle-down"></i>
+															Vou conseguir fazer alterações no meu próprio site sem dificuldades?
+														</button>
+													</h5>
+												</div>
+												<div id="collapsesSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+													<div class="card-body text-left">
+														Após desenvolver o site, deixamos preparado para você uma interface amigável e um gerenciador de contéudo do seu site. Você terá muita facilidade para editar seu site, nós vamos te orientar e prestar um suporte grátis nos 15 primeiros dias após a entrega do website.
+													</div>
+												</div>
+											</div>
+
+											<div class="card">
+												<div class="card-header" id="headingSeven">
+													<h5 class="mb-0">
+														<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsesSeven" aria-expanded="false" aria-controls="collapsesSeven">
+															<i class="fas fa-arrow-circle-down"></i>
+															Que informações preciso enviar para o meu site ser criado?
+														</button>
+													</h5>
+												</div>
+												<div id="collapsesSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+													<div class="card-body text-left">
+														Após contato conosco, você receberá por email um briefing (questionário) aonde você poderá detalhar suas preferências e enviar seus textos. A criação do site é feita somente após entendermos a fundo o seu projeto e seus objetivos.
+													</div>
+												</div>
+											</div>
+
+											<div class="card">
+												<div class="card-header" id="headingEight">
+													<h5 class="mb-0">
+														<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsesEight" aria-expanded="false" aria-controls="collapsesEight">
+															<i class="fas fa-arrow-circle-down"></i>
+															Meu site vai funcionar em smartphone e tablet?
+														</button>
+													</h5>
+												</div>
+												<div id="collapsesEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+													<div class="card-body text-left">
+														Sim, todos os nossos sites são resonsivos, ou seja, são criadas 3 versões diferentes: PC, Tablet e Smartphone. Desta forma, o usuário terá a melhor experiência independente do dispositivo que estiver utilizando para acessar o site.
 													</div>
 												</div>
 											</div>
 										</div>
 
-									</div>	<!-- /.col-lg-12 -->
+									</div>	<!-- /.col-lg-6 -->
 
 								</div>
 							</div>
@@ -482,7 +594,7 @@
 				</div><!-- /.container -->
 			</section>
 
-			<section id="contact" class="dark-bg">
+			<section id="contact" class="light-bg">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-12 text-center">

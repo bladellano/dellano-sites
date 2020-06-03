@@ -26,6 +26,37 @@ body {
 
 .light-bg {
     background-color: #FFF;
+
+}
+
+
+
+#services .card-services{
+    text-align: center;
+}
+#services .card-services i.fab, #services .card-services i.fas{
+    font-size: 6.5em;
+}
+
+#services .card-services h3{
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 800;
+}
+#services .card-services p{
+    text-align: justify;
+}
+
+/*--------------------
+Grayscale Img
+--------------------*/
+.slick-parceiros img{
+    filter: grayscale(1);
+    opacity: 0.6;
+    transition: all 0.3s;
+}
+.slick-parceiros img:hover{
+    filter: grayscale(0);
+    opacity: 1;
 }
 
 /*--------------------
@@ -256,13 +287,13 @@ Card Collapse
 --------------------*/
 
 .card .card-header h5 .btn-link{
-   color: var(--cor-principal);
+   color: var(--cor-secundaria);
    font-weight: 700;
    text-decoration: none;
    /*font-family: 'Dosis', sans-serif;*/
 }
 .card .card-header{
-    text-align: left;
+    text-align: center;
     border-bottom: none;    
 }
 .card{
