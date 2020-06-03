@@ -1,6 +1,18 @@
 
 $(function(){
 
+	/* Expande e recolhe o conteudo da trajetória */
+	$('.btn-read-more').click(function() {
+
+		$('.row.about.trajectory').toggleClass("about-collapse");  
+
+		if($('.row.about.trajectory').hasClass("about-collapse")){
+			$('.btn-read-more').html('Leia mais').prepend('<i class="fas fa-chevron-down"></i> ');
+		} else {
+			$('.btn-read-more').html('Guardar').prepend('<i class="fas fa-chevron-up"></i> ');
+		}
+	});
+
 	/* Slick parceiros */
 	$('.slick-parceiros').slick({
 		infinite: true,
@@ -47,11 +59,12 @@ $(function(){
 				$(this).find('button').html('Enviando').append(' <i class="fas fa-spinner fa-spin"></i>');
 			},
 			success:(r)=>{
-				if(r.status = true){
+
+				if(r.status == true){
 					$(this)[0].reset();
 					return alert(r.message + ' Logo entraremos em contato.');
 				} else {
-					return alert(r.message);
+					return alert(r.message + ' Tente entrar em contato através do Whatsapp (91) 9 82650277' );
 				}
 			}
 		})

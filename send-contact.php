@@ -1,11 +1,9 @@
 <?php 
 
-header("Content-type: application/json; charset=utf-8");
+// header("Content-type: application/json; charset=utf-8");
 
-require_once("class/php-mailer/Mailer.php");
+
  
-$email = new Mail();
-
 $body = '<!DOCTYPE html>
 <html>
    <head>
@@ -68,6 +66,21 @@ $body = '<!DOCTYPE html>
    </body>
 </html>';
 
-$result = $email->send("bladellano@gmail.com",$_POST['email'],$_POST['name'],"FORMULÁRIO DE TENTATIVA CONTATO",$body);
 
-echo json_encode($result);
+#require_once("class/php-mailer/Mailer.php");
+require_once("class/mail-native/MailNative.php");
+
+/*
+#Utilizar quando a porta smtp for 587.
+$email = new Mail();
+$result = $email->send("bladellano@gmail.com",$_POST['email'],$_POST['name'],"FORMULÁRIO DE TENTATIVA CONTATO",$body);
+*/
+
+#Utilizar quando a porta smtp for 465.
+$oMail = new MailNative("caio@dellanosites.com.br",$_POST['email'],$_POST['need']);
+$oMail->setBody($body);
+$result = $oMail->send();
+
+die(json_encode($result));
+
+

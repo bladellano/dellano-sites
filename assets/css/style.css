@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap');
 
 :root {
     --cor-principal: #F9690E;
@@ -27,9 +28,27 @@ body {
     background-color: #FFF;
 }
 
-/*.dark-bg {
-    background-color: #CCC;
-}*/
+/*--------------------
+About
+--------------------*/
+
+.about-collapse {
+    height: 285px;
+    overflow: hidden;
+}
+
+#about{
+    background-color: #025773;
+    padding-bottom: 15px;
+    color:var(--cor-texto-branco);
+}
+.about {
+    max-width: 840px;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+}
 
 /*--------------------
 Customizando indicadores do slick
@@ -103,7 +122,6 @@ Galeria de Artes
 .work a:hover .details {
     bottom: 0;
 }
-
 
 /*--------------------
 Portfolio
@@ -222,7 +240,6 @@ figure.effect-bubba:hover p {
     transform: translate3d(0,0,0);
 }
 
-
 /*--------------------
 Card Collapse Rotation
 --------------------*/
@@ -239,10 +256,10 @@ Card Collapse
 --------------------*/
 
 .card .card-header h5 .btn-link{
- color: var(--cor-principal);
- font-weight: 700;
- text-decoration: none;
- /*font-family: 'Dosis', sans-serif;*/
+   color: var(--cor-principal);
+   font-weight: 700;
+   text-decoration: none;
+   /*font-family: 'Dosis', sans-serif;*/
 }
 .card .card-header{
     text-align: left;
@@ -261,9 +278,11 @@ Sections
     padding-bottom: 15px;
 }
 .section-title h2 {
-    font-size: 34px;
+    font-size: 30px;
     text-transform: uppercase;
     margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
 }
 
 .section-title p {
@@ -369,7 +388,6 @@ Navigation
     }
 }
 
-
 /*--------------------
 Header
 --------------------*/
@@ -410,8 +428,9 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    font-family: 'Dosis', sans-serif;
-    font-style: italic;
+    /*font-family: 'Dosis', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+    /*font-style: italic;*/
     font-size: 22px;
     line-height: 22px;
     margin-bottom: 25px;
@@ -419,17 +438,19 @@ header .intro-text .intro-lead-in {
 
 @media (min-width: 768px) {
     header .intro-text .intro-lead-in {
-        font-family: 'Dosis', sans-serif;
-        font-style: italic;
-        font-size: 40px;
-        line-height: 40px;
+        /*font-family: 'Montserrat', sans-serif;*/
+        /*font-style: italic;*/
+        font-weight: 800;
+        font-size: 62px;
+        line-height: 50px;
         margin-bottom: 25px;
     }
 }
 
 header .intro-text .intro-heading {
-    text-transform: uppercase;
-    font-family: 'Dosis', sans-serif;
+    /*text-transform: uppercase;*/
+    /*font-family: 'Dosis', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
     /*font-family: 'Sedgwick Ave Display', cursive;*/
     font-weight: 700;
     font-size: 50px;
@@ -439,9 +460,9 @@ header .intro-text .intro-heading {
 
 @media (min-width: 768px) {
     header .intro-text .intro-heading {
-        text-transform: uppercase;
-        font-weight: 700;
-        font-size: 56px;
+        /*text-transform: uppercase;*/
+        font-weight: 500;
+        font-size: 34px;
         line-height: 75px;
         margin-bottom: 50px;
     }
@@ -463,7 +484,6 @@ Footer
 footer{
     background-color: var(--cor-secundaria);
     color: var(--cor-texto-branco);
-    /*padding: 15px 0px 15px;*/
     padding-top: 10px;
 }
 footer .container-fluid.assign{
