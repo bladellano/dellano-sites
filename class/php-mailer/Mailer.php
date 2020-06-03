@@ -7,7 +7,7 @@ use PHPMailer\PHPMailer\Exception;
 require("vendor/autoload.php");
 
 define('SMTP_USER', 'bladellano@gmail.com');
-define('SMTP_PASS', '@@Caio2019');
+define('SMTP_PASS', '****');
 define('SMTP_HOST', 'smtp.gmail.com');
 define('SMTP_PORT', 587);  
 
