@@ -1,23 +1,23 @@
 
 $(function(){
+// alertify.alert('Ready!');
+/* Expande e recolhe o conteudo da trajetória */
+$('.btn-read-more').click(function() {
 
-	/* Expande e recolhe o conteudo da trajetória */
-	$('.btn-read-more').click(function() {
+	$('.row.about.trajectory').toggleClass("about-collapse");  
 
-		$('.row.about.trajectory').toggleClass("about-collapse");  
+	if($('.row.about.trajectory').hasClass("about-collapse")){
+		$('.btn-read-more').html('Leia mais').prepend('<i class="fas fa-chevron-down"></i> ');
+	} else {
+		$('.btn-read-more').html('Guardar').prepend('<i class="fas fa-chevron-up"></i> ');
+	}
+});
 
-		if($('.row.about.trajectory').hasClass("about-collapse")){
-			$('.btn-read-more').html('Leia mais').prepend('<i class="fas fa-chevron-down"></i> ');
-		} else {
-			$('.btn-read-more').html('Guardar').prepend('<i class="fas fa-chevron-up"></i> ');
-		}
-	});
-
-	/* Slick parceiros */
-	$('.slick-parceiros').slick({
-		infinite: true,
-		slidesToShow: 5,
-		slidesToScroll: 3,
+/* Slick parceiros */
+$('.slick-parceiros').slick({
+	infinite: true,
+	slidesToShow: 5,
+	slidesToScroll: 3,
 		// centerMode: true,
 		responsive: [
 		{
@@ -41,17 +41,16 @@ $(function(){
 		]
 	});
 
-	/* Formulário de envio de tentatica de contato */
-	$('#form-contact').submit(function(e) {
-		e.preventDefault();
+/* Formulário de envio de tentatica de contato */
+$('#form-contact').submit(function(e) {
+	e.preventDefault();
 
-		const data = $(this).serializeArray();
-		let val_btn = $(this).find('button').html();
+	const data = $(this).serializeArray();
+	let val_btn = $(this).find('button').html();
 
-		$.ajax({
-			url: 'send-contact.php',
-			type: 'post',
-			async:false,
+	$.ajax({
+		url: 'send-contact.php',
+		type: 'post',
 			dataType: 'json',
 			data: data,
 			beforeSend:()=>{
@@ -62,20 +61,20 @@ $(function(){
 
 				if(r.status == true){
 					$(this)[0].reset();
-					return alert(r.message + ' Logo entraremos em contato.');
+					return alertify.success(r.message + ' Logo entraremos em contato.');
 				} else {
-					return alert(r.message + ' Tente entrar em contato através do Whatsapp (91) 9 82650277' );
+					return alertify.error(r.message + ' Tente entrar em contato através do Whatsapp (91) 9 82650277');
 				}
 			}
 		})
-		.always(()=> {
-			$(this).find(':input,select').prop('disabled',false);	
-			$(this).find('button').html(val_btn);
-		});
-
+	.always(()=> {
+		$(this).find(':input,select').prop('disabled',false);	
+		$(this).find('button').html(val_btn);
 	});
 
-	/* Owl carousel */
+});
+
+/* Owl carousel */
 /*	$('.owl-partners').owlCarousel({
 		loop:true,
 		margin:10,
