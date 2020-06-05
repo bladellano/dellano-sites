@@ -10,3 +10,4 @@ tmp/
 ## Sublime Text cache files
 /tests/tests/
 /tests/results/
+env.php

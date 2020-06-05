@@ -64,21 +64,18 @@ $body = '<!DOCTYPE html>
    </body>
 </html>';
 
-
-#require_once("class/php-mailer/Mailer.php");
-require_once("class/mail-native/MailNative.php");
-
-/*
 #Utilizar quando a porta smtp for 587.
+/*require_once("class/php-mailer/Mailer.php");
 $email = new Mail();
 $result = $email->send("bladellano@gmail.com",$_POST['email'],$_POST['name'],"FORMULÁRIO DE TENTATIVA CONTATO",$body);
-*/
+die(json_encode($result));
+exit;*/
 
 #Utilizar quando a porta smtp for 465.
+require_once("class/mail-native/MailNative.php");
 $oMail = new MailNative("caio@dellanosites.com.br",$_POST['email'],$_POST['need']);
 $oMail->setBody($body);
 $result = $oMail->send();
-
 die(json_encode($result));
 
 

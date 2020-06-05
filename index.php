@@ -388,7 +388,7 @@ require_once("_header.php");
 			</div><!-- end container -->
 		</section>
 
-		<section id="clients" class="light-bg">
+		<section id="clients" class="light-bg" style="padding: 20px 0px 98px">
 			<div class="container">
 
 				<div class="row">
@@ -404,7 +404,9 @@ require_once("_header.php");
 					<div><img src="assets/img/parceiros/logo-para.png" alt=""></div>
 					<div><img src="assets/img/parceiros/logo-adapte.png" alt=""></div>
 					<div><img src="assets/img/parceiros/logo-link.png" alt=""></div>
+					<div><img src="assets/img/parceiros/logo-rsaron.png" alt=""></div>
 					<div><img src="assets/img/parceiros/logo-influenciadores.png" alt=""></div>
+					<div><img src="assets/img/parceiros/logo-paideia.png" alt=""></div>
 				</div>
 			</div>
 		</section>
