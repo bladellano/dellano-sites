@@ -6,8 +6,9 @@ tmp/
 # IDE Files
 /nbproject/
 .idea/*
-#composer.lock
+composer.lock
 ## Sublime Text cache files
 /tests/tests/
 /tests/results/
+views-cache/
 env.php
