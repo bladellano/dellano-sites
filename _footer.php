@@ -5,7 +5,7 @@
 			<div class="row">
 
 				<div class="col-md-6">
-					<img src="assets/img/logo-nav-solo.png" alt="">
+					<img src="assets/img/logo-nav-solo.png" alt="LOGO" >
 				</div>
 				<div class="col-md-6 text-right">
 					<a style="color:#FFF" href="https://www.facebook.com/caio.nunes.7374" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -16,8 +16,8 @@
 			</div>
 
 			<div class="row">
-				<div class="col-md-4">
-					<span class="text-muted">Contato</span><br/>
+				<div class="col-md-4 footer-list">
+					<h3>Contato</h3>
 					<span class="phone">+55 (91) 9 8265-0277</span><br>
 					<span class="email">bladellano@gmail.com</span>
 					<address>
@@ -27,19 +27,35 @@
 					</address>
 				</div>
 				<div class="col-md-4 footer-list">
-					<h3>Acesso Rápido</h3>
+					<h3>Mais Serviços</h3>
 					<ul>
-						<li>FAQ</li>
-						<li>Sites e Lojas Virtuais</li>
-						<li>Identidade Visual e Artes Digitais</li>
+						<li>Reformular o seu sites antigo</li>
+						<li>Criação de artes para site e redes sociais</li>
+						<li>Registro de domínio</li>
+						<li>Formas de pagamento</li>
+						<li>Hospedagem</li>
+						<li>Hotsites</li>
+						<li>Landing pages</li>
+						<li>Criação de logomarca e cartões de visita</li>
+						<li>Portfólio Sites e E-commerces</li>
+						<li>Portfólio Artes Digitais</li>
+						<li>Consultoria SEO</li>
+						<li>Campanhas para o Instagram</li>
 					</ul>
 				</div>
 				<div class="col-md-4 footer-list">
-					<h3>Mais Acessados</h3>
+					<h3>Exclusivo</h3>
 					<ul>
-						<li>Registro de Domínios</li>
-						<li>Formas de Pagamento</li>
-						<li>Hospedagem</li>
+						<li>Site para advogados</li>
+						<li>Site para escritórios</li>
+						<li>Site para contabilidade</li>
+						<li>Site para youtubers</li>
+						<li>Site para representantes</li>
+						<li>Site para clínicas</li>
+						<li>Site para microempreendores</li>
+						<li>Site para petshops</li>
+						<li>Site para salões</li>
+						<li>Site para transportadoras</li>
 					</ul>
 				</div>
 			</div>
@@ -62,11 +78,6 @@
 
 	<script src="assets/js/utils.js" ></script>
 	<script src="assets/js/script.js" ></script>
-	<script>
-		
-		// import swal from 'sweetalert';
-	</script>
-
 
 </body>
 </html>

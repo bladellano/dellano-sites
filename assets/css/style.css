@@ -30,6 +30,28 @@ body {
 }
 
 /*--------------------
+Efeito hr
+--------------------*/
+footer ul li.efeito-hr hr{
+    border: 1px solid var(--cor-principal);
+    width: 0;
+    transition: ease .2s;
+    margin-bottom: -1px;
+    margin-top: 0px;
+    opacity: 0;
+}
+
+footer ul li.efeito-hr:hover hr{
+    width: 100%;
+    opacity: 1;
+    border: 1px solid var(--cor-principal);
+}
+footer ul li.efeito-hr a{
+color: #FFF;
+text-decoration: none;
+}
+
+/*--------------------
 Botão Flutuante Whatsapp
 --------------------*/
 .btn-whatsapp{
@@ -92,6 +114,7 @@ About
     font-size: 20px;
     margin-bottom: 10px;
     transition: all 0.3s;
+    text-align: justify;
 }
 
 /*--------------------
@@ -403,7 +426,7 @@ Navigation
 .navbar-default .container .navbar-nav>.active>a:hover,
 .navbar-default .container .navbar-nav>.active>a:focus {
     color: var(--cor-texto-branco);
-    background-color:var(--cor-principal-fosca);
+    background-color:var(--cor-principal);
 }
 
 @media (min-width:768px) {
@@ -459,6 +482,7 @@ header {
     -o-background-size: cover;
     text-align: center;
     color: var(--cor-texto-branco);
+    /*height: 100vh;*/
 }
 
 header .intro-text {
@@ -470,6 +494,39 @@ header .intro-text {
     header .intro-text {
         padding-top: 146px;
         padding-bottom: 86px;
+    }
+}
+
+.intro-heading-services-1::after,
+.intro-heading-services-2::after,
+.intro-heading-services-3::after {
+ content: '|';
+ margin-left: 5px;
+ opacity: 1;
+ animation: pisca .7s infinite;
+}
+
+.intro-heading-services-1,
+.intro-heading-services-2,
+.intro-heading-services-3 {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 12px;
+}
+header .intro-text .intro-heading::after {
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+@keyframes pisca{
+    0%,100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
     }
 }
 
@@ -502,7 +559,7 @@ header .intro-text .intro-heading {
         font-weight: 500;
         font-size: 34px;
         line-height: 75px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 }
 
