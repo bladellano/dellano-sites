@@ -1,34 +1,6 @@
 
 $(function(){
 
-/*Aplicando efeito máquina de escrever*/
-
-$('.intro-heading').hide();
-typeWriter($('.intro-lead-in'),false,2500); //false para não retirar a frase, 2500 p/ o setTimeout.
-
-setTimeout(()=>{
- $('.intro-heading').show();
- typeWriter($('.intro-heading'),false,2500);	
-},1000);
-
-/*setTimeout(todasAsFrases,4000);//Executa pela primeira vez.
-
-setInterval(function(){//Cria um intervalo.
-	setTimeout(todasAsFrases,4000);
-},35000);
-
-function todasAsFrases(){//Encadeia as funções	
-	typeWriter($('.intro-heading-services-1'),true,4000);
-	setTimeout(fraseBanner,5000);
-} 
-function fraseBanner(){	
-	typeWriter($('.intro-heading-services-2'),true,4500);
-	setTimeout(fraseIdentidadeVisual,5500);
-}
-function fraseIdentidadeVisual(){	
-	typeWriter($('.intro-heading-services-3'),true,4000);
-}*/
-
 /* Expande e recolhe o conteudo da trajetória */
 $('.btn-read-more').click(function() {
 

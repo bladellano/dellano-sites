@@ -11,9 +11,14 @@ $app = new Slim();
 $app->config('debug', true);
 
 $app->get('/', function () {
-$data = [];
+
+$listScripts = [
+	'typewriter-effect.js'
+];
 	$page = new Page();
-	$page->setTpl("index",$data);
+	$page->setTpl("index",[
+		'scripts'=> $listScripts
+	]);
 });
 
 $app->get('/reformular-site-antigo',function(){	$page = new Page();	$page->setTpl("reformular-site-antigo");});

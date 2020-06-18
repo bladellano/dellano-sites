@@ -16,9 +16,9 @@
         <div class="row">
 
             <div class="col-md-6">
-                <img src="assets/img/logo-nav-solo.png" alt="LOGO" >
+                <!-- <img src="assets/img/logo-nav-solo.png" alt="LOGO" > -->
             </div>
-            <div class="col-md-6 text-right">
+            <div class="col-md-12 text-right">
                 <a style="color:#FFF" href="https://www.facebook.com/caio.nunes.7374" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 <a style="color:#FFF" href="https://www.instagram.com/dell4no/" target="_blank"><i class="fab fa-instagram"></i></a>
                 <a style="color:#FFF" href="https://api.whatsapp.com/send?phone=5591982650277" target="_blank"><i class="fab fa-whatsapp"></i></a>
@@ -41,7 +41,7 @@
                 <h3>Mais Serviços</h3>
                 <ul>
                     <li class="efeito-hr"><a href="/reformular-site-antigo#inicio">Reformular o seu sites antigo</a><hr></li>
-                    <li class="efeito-hr"><a href="/criacao-artes-site-redes-sociais#inicio">Criação de artes para site e redes sociais</a><hr></li>
+                    <li class="efeito-hr"><a href="/criacao-artes-site-redes-sociais">Criação de artes para site e redes sociais</a><hr></li>
                     <li class="efeito-hr"><a href="/registro-dominio#inicio">Registro de domínio</a><hr></li>
                     <li class="efeito-hr"><a href="/formas-pagamento#inicio">Formas de pagamento</a><hr></li>
                     <li class="efeito-hr"><a href="/hospedagem#inicio">Hospedagem</a><hr></li>
@@ -85,10 +85,14 @@
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js" ></script>
 <script src="bower_components/lightbox2/dist/js/lightbox.min.js" ></script>
 <script src="bower_components/slick-carousel/slick/slick.js" ></script>
-<script src="bower_components/alertifyjs/dist/js/alertify.js" ></script>	
-
+<script src="bower_components/alertifyjs/dist/js/alertify.js" ></script>
 <script src="assets/js/utils.js" ></script>
 <script src="assets/js/script.js" ></script>
+
+<!-- Scripts adicionados por páginas -->
+<?php $counter1=-1;  if( isset($scripts) && ( is_array($scripts) || $scripts instanceof Traversable ) && sizeof($scripts) ) foreach( $scripts as $key1 => $value1 ){ $counter1++; ?>
+<script src="assets/js/<?php echo htmlspecialchars( $value1, ENT_COMPAT, 'UTF-8', FALSE ); ?>" ></script>
+<?php } ?>
 
 </body>
 </html>

@@ -2,14 +2,14 @@
 <html>
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168438641-1"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168438641-1"></script>
 <script>
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
 	gtag('js', new Date());
 
 	gtag('config', 'UA-168438641-1');
-</script>
+</script> -->
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -75,20 +75,4 @@
         </div><!-- container -->
     </nav><!-- navbar -->
     
-    <header>
-        <div class="container">
-            <div class="slider-container">
-                <div class="intro-text">
-                    <div class="circle-photo"><img src="assets/img/perfil-caio.png" alt=""></div>
-                    <div class="intro-lead-in">Caio Dellano</div>
-                    <div class="intro-heading">Desenvolvedor Full Stack</div>
-                    <a href="#services" class="btn page-scroll btn-primary btn-lg">CONHEÇA NOSSOS SERVIÇOS</a>
-    
-                    <!-- div class="intro-heading-services-1" style="display: none">Precisando de um site para sua loja ou negócio!?</div>
-                    <div class="intro-heading-services-2" style="display: none">Precisando de um banner para seu site ou rede social!?</div>
-                    <div class="intro-heading-services-3" style="display: none">Precisando de uma identidade visual bacana!?</div> -->
-                    
-                </div>
-            </div>
-        </div>
-    </header>
+ 

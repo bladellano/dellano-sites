@@ -10,5 +10,5 @@ composer.lock
 ## Sublime Text cache files
 /tests/tests/
 /tests/results/
-views-cache/
-env.php
+/views-cache/
+#env.php
