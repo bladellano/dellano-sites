@@ -1,5 +1,4 @@
-<?php if(!class_exists('Rain\Tpl')){exit;}?>
-   <header>
+<?php if(!class_exists('Rain\Tpl')){exit;}?>   <header>
 	<div class="container">
 		<div class="slider-container">
 			<div class="intro-text">
@@ -56,7 +55,6 @@
 	<!-- /.container -->
 	<br/>
 </section>
-
 
 <section id="about">
 	<div class="container">
@@ -445,7 +443,7 @@
 											<h5 class="mb-0">
 												<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
 													<i class="fas fa-arrow-circle-down"></i>
-													Depois de criar meu site, tem alguma valor mensal obrigatório?
+													Depois de criar meu site, tem algum valor mensal obrigatório?
 												</button>
 											</h5>
 										</div>

@@ -29,8 +29,7 @@
             <li><i class="fas fa-check"></i> Linkedin 1x por semana.</li>
             <li><i class="fas fa-check"></i> Uma reunião via skype ou meet google 1x por semana. (~30mim)</li>
           </ul>
-          <!-- <button type="button" class="btn btn-lg btn-block btn-outline-primary">CONTRATAR</button> -->
-          <a class="btn btn-lg btn-block btn-outline-primary" href="https://api.whatsapp.com/send?l=pt&phone=5591982650277" target="_blank">CONTRATAR</a>
+          <a class="btn btn-lg btn-block btn-outline-primary" href="/checkout/100">CONTRATAR</a>
         </div>
       </div>
 
@@ -49,8 +48,7 @@
             <li><i class="fas fa-check"></i> Linkedin 3x por semana.</li>
             <li><i class="fas fa-check"></i> Uma reunião via skype ou meet google 1x por semana. (~1h)</li>
           </ul>
-          <!-- <button type="button" class="btn btn-lg btn-block btn-success">CONTRATAR</button> -->
-          <a class="btn btn-lg btn-block btn-success" href="https://api.whatsapp.com/send?l=pt&phone=5591982650277" target="_blank">CONTRATAR</a>
+          <a class="btn btn-lg btn-block btn-success" href="/checkout/250">CONTRATAR</a>
         </div>
       </div>
       <div class="card mb-4 box-shadow">
@@ -67,11 +65,10 @@
             <li><i class="fas fa-check"></i> Linkedin 2x por semana.</li>
             <li><i class="fas fa-check"></i> Uma reunião via skype ou meet google 1x por semana. (~1h)</li>
           </ul>
-          <!-- <button type="button" class="btn btn-lg btn-block btn-outline-primary">CONTRATAR</button> -->
-          <a class="btn btn-lg btn-block btn-outline-primary" href="https://api.whatsapp.com/send?l=pt&phone=5591982650277" target="_blank">CONTRATAR</a>
+          <a class="btn btn-lg btn-block btn-success" href="/checkout/150">CONTRATAR</a>
         </div>
       </div>
     </div>
   </section>
 
-</div><!--./container-->>
+</div><!--./container-->

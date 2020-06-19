@@ -14,7 +14,7 @@ class MailNative{
 		$this->to = $to;
 		$this->from = $from;
 		$this->subject = $subject;		
-		self::setHeader();
+		$this->setHeader();
 	}
 
 	public function setHeader(){
