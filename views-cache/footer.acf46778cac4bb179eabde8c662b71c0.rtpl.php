@@ -5,10 +5,10 @@
 </div>
 
 <!-- BOTÃO DO WHATSAPP -->
-<a href="https://api.whatsapp.com/send?l=pt&phone=5591982650277" target="_blank">
-    <img src="assets/img/whatsapp.png" alt="" class="btn-whatsapp">
+<!-- <a href="https://api.whatsapp.com/send?l=pt&phone=5591982650277" target="_blank">
+    <img src="assets/img/whatsapp.png" width="50px" alt="" class="btn-whatsapp">
 </a>
-
+ -->
 <footer>
 
     <div class="container">
@@ -93,6 +93,6 @@
 <?php $counter1=-1;  if( isset($scripts) && ( is_array($scripts) || $scripts instanceof Traversable ) && sizeof($scripts) ) foreach( $scripts as $key1 => $value1 ){ $counter1++; ?>
 <script src="assets/js/<?php echo htmlspecialchars( $value1, ENT_COMPAT, 'UTF-8', FALSE ); ?>" ></script>
 <?php } ?>
-
+<script type="text/javascript">(function(n,r,l,d){try{var h=r.head||r.getElementsByTagName("head")[0],s=r.createElement("script");s.setAttribute("type","text/javascript");s.setAttribute("src",l);n.neuroleadId=d;h.appendChild(s);}catch(e){}})(window,document,"https://cdn.neurologic.com.br/neurolead/neurolead.min.js", 7362);</script>
 </body>
 </html>

@@ -11,4 +11,5 @@ composer.lock
 /tests/tests/
 /tests/results/
 /views-cache/
+/pagseguro/
 #env.php
