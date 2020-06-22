@@ -114,6 +114,14 @@
 				</div>
 
 			</div>
+
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<a style="color:#FFF;text-align: right" href="https://www.flickr.com/photos/88268106@N05/" target="_blank"><i class="fab fa-flickr"></i></a>
+					<a style="color:#FFF;text-align: right" href="https://github.com/bladellano/" target="_blank"><i class="fab fa-github"></i></a>
+				</div>
+			</div>
+
 			<div class="row about">
 				<div class="col-md-12">
 

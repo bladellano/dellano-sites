@@ -597,11 +597,11 @@ footer .footer-list ul{
     list-style: none;
     line-height: 1.8em;
 }
-footer .fab:hover{
+footer .fab:hover,#about a .fab:hover{
     background-color: var(--cor-principal);
     cursor: pointer;
 }
-footer .fab{
+footer .fab,#about a .fab{
     padding: 8px 10px;
     border-radius: 23px;
     border: 1px solid var(--cor-principal);

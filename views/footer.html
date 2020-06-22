@@ -18,11 +18,12 @@
             <div class="col-md-6">
                 <!-- <img src="assets/img/logo-nav-solo.png" alt="LOGO" > -->
             </div>
+            
             <div class="col-md-12 text-right">
-                <a style="color:#FFF" href="https://www.facebook.com/caio.nunes.7374" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a style="color:#FFF" href="https://www.instagram.com/dell4no/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a style="color:#FFF" href="https://api.whatsapp.com/send?phone=5591982650277" target="_blank"><i class="fab fa-whatsapp"></i></a>
-            </div>
+              <a style="color:#FFF" href="https://www.facebook.com/caio.nunes.7374" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a style="color:#FFF" href="https://www.instagram.com/dell4no/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a style="color:#FFF" href="https://api.whatsapp.com/send?phone=5591982650277" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          </div>
 
         </div>
 
@@ -96,3 +97,4 @@
 <script type="text/javascript">(function(n,r,l,d){try{var h=r.head||r.getElementsByTagName("head")[0],s=r.createElement("script");s.setAttribute("type","text/javascript");s.setAttribute("src",l);n.neuroleadId=d;h.appendChild(s);}catch(e){}})(window,document,"https://cdn.neurologic.com.br/neurolead/neurolead.min.js", 7362);</script>
 </body>
 </html>
+
