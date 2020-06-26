@@ -6,7 +6,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Sts\\": "vendor\\dellanosites\\php-classes\\src"
+			"Sts\\": "class\\dellanosites\\php-classes\\src"
 		}
 	}
 }
