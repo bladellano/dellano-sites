@@ -1,15 +1,14 @@
 application/cache/*
-#bower_components/
+bower_components/
 cgi-bin/
 /vendor/
 tmp/
-# IDE Files
 /nbproject/
 .idea/*
 composer.lock
-## Sublime Text cache files
 /tests/tests/
 /tests/results/
 /views-cache/
-/pagseguro/
+env.php
+#/pagseguro/
 #env.php
