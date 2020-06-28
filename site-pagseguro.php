@@ -41,13 +41,11 @@ $app->get('/getstatus',function(){
 });
 */
 $app->get('/checkout/100', function () {
-
     header("access-control-allow-origin: https://pagseguro.uol.com.br");
     header("Content-Type: text/html; charset=UTF-8", true);
     date_default_timezone_set('America/Sao_Paulo');
 
     $PagSeguro = new PagSeguro();
-
     #Efetuar pagamento	
     $order = array(
         "codigo" => 'REF'.mt_rand(12, 1500),
@@ -69,8 +67,8 @@ $app->get('/checkout/100', function () {
         "codigo_pagseguro" => ""
     );
 
-    $PagSeguro->executeCheckout($order, "https://dellanosites.local.com/pedido/" . $_GET['codigo']);
-
+    $PagSeguro->executeCheckout($order, "https://dellanosites.local.com/pedido/");
+    #$PagSeguro->executeCheckout($order, "https://dellanosites.local.com/pedido/" . $_GET['codigo']);
     #Receber retorno
     if (isset($_GET['transaction_id'])) {
 
