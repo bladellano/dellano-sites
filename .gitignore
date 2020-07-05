@@ -10,5 +10,6 @@ composer.lock
 /tests/results/
 /views-cache/
 env.php
+.htaccess
 #/pagseguro/
 #env.php
