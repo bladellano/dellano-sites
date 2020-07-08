@@ -7,25 +7,25 @@ class PagSeguro
 
 	private $email         = "bladellano@gmail.com";
 	private $token_sandbox = "90501FF393D748A39AB959EC40ED7460";
-	private $token_oficial = "TOKEN DO PAGSEGURO";
+	private $token_oficial = "5B1EBC38EE574C7EA39A47A3B4F0DE84";
 	private $url_retorno   = "https://dellanosites.com.br/pagseguro/notificacao";
 	
 	//URL OFICIAL
 	//COMENTE AS 4 LINHAS ABAIXO E DESCOMENTE AS URLS DA SANDBOX PARA REALIZAR TESTES
-    /*
+    
     private $url              = "https://ws.pagseguro.uol.com.br/v2/checkout/";
 	private $url_redirect     = "https://pagseguro.uol.com.br/v2/checkout/payment.html?code=";
 	private $url_notificacao  = 'https://ws.pagseguro.uol.com.br/v2/transactions/notifications/';
 	private $url_transactions = 'https://ws.pagseguro.uol.com.br/v2/transactions/';
-    */
+   
 	//URL SANDBOX
 	//DESCOMENTAR PARA REALIZAR TESTES
 	
-	private $url              = "https://ws.sandbox.pagseguro.uol.com.br/v2/checkout/";
+	/*private $url              = "https://ws.sandbox.pagseguro.uol.com.br/v2/checkout/";
 	private $url_redirect     = "https://sandbox.pagseguro.uol.com.br/v2/checkout/payment.html?code=";
 	private $url_notificacao  = 'https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/notifications/';
 	private $url_transactions = 'https://ws.sandbox.pagseguro.uol.com.br/v2/transactions/';
-	
+	*/
 	
 	private $email_token = "";//NÃO MODIFICAR
 	private $statusCode = array(0=>"Pendente",

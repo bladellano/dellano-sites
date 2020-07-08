@@ -47,8 +47,8 @@ footer ul li.efeito-hr:hover hr{
     border: 1px solid var(--cor-principal);
 }
 footer ul li.efeito-hr a{
-color: #FFF;
-text-decoration: none;
+    color: #FFF;
+    text-decoration: none;
 }
 
 /*--------------------
@@ -339,6 +339,23 @@ Card Collapse
 }
 
 /*--------------------
+Sections - container-fluid 
+--------------------*/
+.container-fluid.content{
+    background-color: #FFF;
+    color: #000;
+    font-size: 22px;
+    border-top: 1px solid var(--cor-secundaria);
+    border-bottom:1px solid var(--cor-secundaria);
+}
+
+.container-fluid.content .col-md-6{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+/*--------------------
 Sections
 --------------------*/
 
@@ -357,6 +374,7 @@ Sections
     font-size: 22px;
     font-weight: 300;
     line-height: 35px;
+    text-align: justify;
     /* margin: 20px 100px 60px 100px;*/
 
 }
