@@ -12,6 +12,7 @@ class Seo
     public function __construct(string $schema="article")
     {
         $this->optmizer = new Optimizer();
+        
         $this->optmizer->openGraph(
             getenv('SITE'),
             "pt_BR",
